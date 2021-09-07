@@ -1,0 +1,24 @@
+.pricing-icon-inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .pricing-icon-item{
+        width: 330px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h6{
+            font-size: 20px;
+            line-height: 58px;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+    }
+}

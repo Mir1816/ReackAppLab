@@ -1,0 +1,19 @@
+.icon-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 150px;
+    .item{
+        padding: 20px;
+        
+        img{
+            margin-bottom: 20px;
+        }
+        h3{
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.icon-blok{
+    .icon-blok-title{
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 600;
+        width: 400px;
+        margin-bottom: 10px;
+    }
+    .icon-blok-text{
+        margin-bottom: 50px;
+        width: 450px;
+    }
+
+    .icon-blok-inner{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        .blok-item{
+            width: 330px;
+            margin-left: 50px;
+            padding-right: 50px;
+            margin-bottom: 50px;
+            &:first-child{
+                margin-left: 0;
+            }
+            h4{
+                font-size: 20px;
+                line-height: 58px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+

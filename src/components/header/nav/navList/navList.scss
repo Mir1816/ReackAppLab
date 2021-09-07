@@ -1,0 +1,16 @@
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li{
+        margin-right: 30px;
+        &:last-child{
+            margin: 0;
+        }
+        a{
+            color: inherit;
+            font-weight: 500;
+        }
+    }
+}

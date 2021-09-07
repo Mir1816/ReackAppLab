@@ -1,0 +1,40 @@
+.info-awesome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 170px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+
+    .info-title{
+        font-size: 36px;
+        line-height: 46px;
+        font-weight: 600;
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .info-text{
+        margin-bottom: 80px;
+    }    
+
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        padding-right: 100px;
+
+        .icon{
+            padding-top: 20px;
+        }
+
+        .info{
+            margin-left: 20px;
+            h3{
+                font-size: 20px;
+                line-height: 58px;
+                font-weight: 600;
+            }
+        }
+    }
+}
